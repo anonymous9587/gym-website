@@ -316,19 +316,23 @@ padding-top: 20px;
     border: 1px solid black;
 }
 .plan-text{
-    width: 390px;
+    width: 450px;
     height: 47px;
    
     margin: 30px;
     display: flex;
     gap: 10px;
+    color: white;
 }
 .plan-text h1{
     color: #FFFFFF;
-    font-size: 40px ;
+    /* font-size: 40px ; */
     font-weight: 600px;
     font-style: Demibold Roman;
-    line-height: 100%;
+    /* line-height: 100%; */
+    margin: 40px 0px 0px 80px;
+    width: 100%;
+
 }
 .plan-text span{
     color: #FF921B;
@@ -341,6 +345,7 @@ padding-top: 20px;
 .plan-select-main-box{
     display: flex;
     width: 100%;
+    margin-top: 60px;
 }
 .plan-select-box{
     width: 278px;
@@ -349,7 +354,7 @@ padding-top: 20px;
     margin-top: 20px;
     margin-left: 120px;
      /* background: linear-gradient(to left,#393939,#39393900) ; */
-    box-shadow: rgba(57,57,57,.6) 0px 0px 20px 5px ;
+    box-shadow: rgba(179, 176, 176, 0.6) 0px 0px 20px 5px ;
 }
 .plan-select-box h1{
     width: 32px;
@@ -450,11 +455,11 @@ padding-top: 20px;
    width: 100%;
    height: 380px;
     background-color:black;
+    padding-top: 80px;
 }
 .footer-main{
     width: 100%;
     height: 300px;
-    border: 1px solid black;
     display: flex;
     gap: 20px;
 }
@@ -588,7 +593,7 @@ padding-top: 20px;
     height: 50px;
     background: rgba(255, 146, 27, 1);
     border: 1px solid   rgba(255, 146, 27, 1);
-    margin-top: 80px;
+    /* margin-top: 80px; */
     
 }
 .footer-img-box{
